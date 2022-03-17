@@ -20,6 +20,7 @@
       )
       (property "ki_keywords" "connector" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
+      )
       (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
