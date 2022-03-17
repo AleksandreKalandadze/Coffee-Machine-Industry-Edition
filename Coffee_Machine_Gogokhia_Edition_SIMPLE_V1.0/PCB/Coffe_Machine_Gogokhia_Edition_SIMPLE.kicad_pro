@@ -428,6 +428,42 @@
     [
       "8fc062a7-114d-48eb-a8f8-71128838f380",
       ""
+    ],
+    [
+      "40210dcc-0377-4efa-bb3d-3b5fb684efcb",
+      "Power"
+    ],
+    [
+      "cfac3206-9958-4e82-8751-bf66c6a47b3d",
+      "Dc Motor Control"
+    ],
+    [
+      "3a2dedb9-69cc-4c93-a8b0-451bde58c075",
+      "NTC"
+    ],
+    [
+      "bb449d56-9d4f-4fc2-8275-f355920af054",
+      "Flowmeter"
+    ],
+    [
+      "d0e71996-2bcc-4361-9d11-9474c9eec1ec",
+      "ZeroCross"
+    ],
+    [
+      "f4fcad7e-1924-4c54-af0a-5eb70550924c",
+      "Boiler"
+    ],
+    [
+      "092c510c-7d98-4f62-946f-7fdd3b7bc9d1",
+      "Pump"
+    ],
+    [
+      "e894ceda-0965-4f7a-a395-1f1bb92abb79",
+      "eValve"
+    ],
+    [
+      "776944ec-1f55-4025-87bc-a782a0fe7dbe",
+      "Display"
     ]
   ],
   "text_variables": {}
