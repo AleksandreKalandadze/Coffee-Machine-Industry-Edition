@@ -58,8 +58,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define NTC_Pin GPIO_PIN_3
-#define NTC_GPIO_Port GPIOA
 #define ST7735_Reset_Pin GPIO_PIN_7
 #define ST7735_Reset_GPIO_Port GPIOA
 #define ST7735_DC_Pin GPIO_PIN_11
