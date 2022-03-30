@@ -1,4 +1,4 @@
-19981533762158534
+19986436538896233
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51653,6 +51653,13 @@ BTA16_wH_SINK
 5
 4
 Footprint
+Button_Push_SMD_TSD003
+
+
+0
+4
+4
+Footprint
 CD43
 
 
@@ -51772,6 +51779,13 @@ HI_LINK_2W
 4
 4
 Footprint
+IDC_Header_2.0mm_14P
+
+
+0
+14
+14
+Footprint
 INA226
 
 
@@ -51827,6 +51841,13 @@ JST_2.54mm_9P
 0
 9
 9
+Footprint
+KF7.62_2P
+
+
+0
+2
+2
 Footprint
 LQFP100_STM32F730V8T6
 
