@@ -2706,10 +2706,10 @@
       (reference "RV1") (unit 1) (value "Varistor") (footprint "Varistor:RV_Disc_D12mm_W4.2mm_P7.5mm")
     )
     (path "/40210dcc-0377-4efa-bb3d-3b5fb684efcb/ceac7b67-1b2d-4e66-b639-6ff90e8120ab"
-      (reference "U1") (unit 1) (value "LM2596T-ADJ") (footprint "Package_TO_SOT_SMD:TO-252-5_TabPin3")
+      (reference "U1") (unit 1) (value "LM2596T-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/40210dcc-0377-4efa-bb3d-3b5fb684efcb/1582a22a-8860-4981-afd7-a11cb23bb3f2"
-      (reference "U2") (unit 1) (value "LM2596T-ADJ") (footprint "Package_TO_SOT_SMD:TO-252-5_TabPin3")
+      (reference "U2") (unit 1) (value "LM2596T-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/40210dcc-0377-4efa-bb3d-3b5fb684efcb/3695fcbb-06f6-4ce7-a9d7-a47e3f047ac1"
       (reference "U3") (unit 1) (value "LM4040DBZ-3") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -2724,7 +2724,7 @@
       (reference "U6") (unit 1) (value "MOC3021M") (footprint "Footprint:DIP6_SMD")
     )
     (path "/40210dcc-0377-4efa-bb3d-3b5fb684efcb/f02aea0c-a921-46b1-8db4-c48c28124938"
-      (reference "U7") (unit 1) (value "LM2596T-ADJ") (footprint "Package_TO_SOT_SMD:TO-252-5_TabPin3")
+      (reference "U7") (unit 1) (value "LM2596T-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/e894ceda-0965-4f7a-a395-1f1bb92abb79/56ddefce-1c38-4a5d-a3ce-c72a14bb6373"
       (reference "U8") (unit 1) (value "MOC3021M") (footprint "Footprint:DIP6_SMD")
