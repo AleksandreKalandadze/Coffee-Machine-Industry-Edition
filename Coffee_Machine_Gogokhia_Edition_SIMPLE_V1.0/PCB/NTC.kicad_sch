@@ -360,7 +360,7 @@
     (in_bom yes) (on_board yes)
     (uuid 89d9b87d-c992-4d81-b0d0-ff992db9d06b)
     (property "Reference" "R9" (id 0) (at 118.11 81.28 90))
-    (property "Value" "47K" (id 1) (at 115.57 81.28 90))
+    (property "Value" "100K" (id 1) (at 115.57 81.28 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 113.792 81.28 90)
       (effects (font (size 1.27 1.27)) hide)
     )

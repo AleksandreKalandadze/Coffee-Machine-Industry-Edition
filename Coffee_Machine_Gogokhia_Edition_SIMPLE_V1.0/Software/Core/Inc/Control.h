@@ -36,7 +36,7 @@ TIM_HandleTypeDef htim1;
 //FUNCTIONS FOR EXTERNAL COMPONENTS SWITCHING
 
 //delay 1 = 100uS
-void DELAY_UC(uint16_t delay)
+void DELAY(uint16_t delay)
 {
    __HAL_TIM_SET_COUNTER (&htim1, 0);
 	 while (__HAL_TIM_GET_COUNTER(&htim1) < delay); 
@@ -48,9 +48,9 @@ void PUMP_VARIABLE (uint8_t i)
 	 if (i >= 0 || i <= 100)
    {
 	    PUMP_ON;
-		  DELAY_UC (i);
+		  DELAY (i);
 		  PUMP_OFF;
-		  DELAY_UC (100 - i);
+		  DELAY (100 - i);
 	 }
 }
 

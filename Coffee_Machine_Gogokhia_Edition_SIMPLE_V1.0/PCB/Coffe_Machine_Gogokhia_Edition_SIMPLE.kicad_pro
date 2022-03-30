@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.0,
-          "width": 1.2
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 2.286
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -121,6 +121,7 @@
         0.0,
         0.2,
         0.5,
+        0.8,
         1.0,
         1.5,
         2.0,
@@ -430,7 +431,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -466,16 +467,20 @@
       "Boiler"
     ],
     [
-      "092c510c-7d98-4f62-946f-7fdd3b7bc9d1",
-      "Pump"
-    ],
-    [
       "e894ceda-0965-4f7a-a395-1f1bb92abb79",
       "eValve"
     ],
     [
       "776944ec-1f55-4025-87bc-a782a0fe7dbe",
       "Display"
+    ],
+    [
+      "d24ce751-e62b-40b7-ba89-872155388bb0",
+      "AirPump"
+    ],
+    [
+      "8a11da0e-2fd2-49e6-81fd-24e60702b7ad",
+      "PUMP"
     ]
   ],
   "text_variables": {}

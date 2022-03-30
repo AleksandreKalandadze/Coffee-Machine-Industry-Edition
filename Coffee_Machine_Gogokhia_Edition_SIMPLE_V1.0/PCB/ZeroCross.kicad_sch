@@ -402,7 +402,7 @@
     (uuid ff8ad195-0940-4717-8f34-c0d522d0ebaf)
   )
 
-  (text "ZERO CROSS\n" (at 119.38 49.53 0)
+  (text "ZERO CROSS\n" (at 106.68 65.659 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 0efadb7f-7cc5-4d90-88f8-3fe86d1a34fe)
   )
