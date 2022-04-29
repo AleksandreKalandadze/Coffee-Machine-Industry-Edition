@@ -1428,7 +1428,7 @@
     (property "Reference" "C23" (id 0) (at 132.334 30.3276 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" ".01uF" (id 1) (at 132.334 32.639 0)
+    (property "Value" ".01uF" (id 1) (at 132.08 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 130.3782 35.306 0)
