@@ -1,0 +1,58 @@
+#ifndef __CONTROL_H__
+#define __CONTROL_H__
+
+#include "stm32f1xx_hal.h"
+
+TIM_HandleTypeDef htim1;
+
+//PORT AND PIN DEFINITON FOR EXTERNAL COMPONENTS
+
+#define SOL_1_PORT   GPIOA
+#define SOL_1_PIN    GPIO_PIN_4
+
+#define SOL_2_PORT   GPIOA
+#define SOL_2_PIN    GPIO_PIN_5
+
+#define PUMP_PORT    GPIOB
+#define PUMP_PIN     GPIO_PIN_6
+
+#define BOILER_PORT  GPIOB
+#define BOILER_PIN   GPIO_PIN_4
+
+//EXTERNAL COMPONENTS SWITCHING
+
+#define SOL_1_ON    HAL_GPIO_WritePin(SOL_1_PORT, SOL_1_PIN, GPIO_PIN_SET)
+#define SOL_1_OFF   HAL_GPIO_WritePin(SOL_1_PORT, SOL_1_PIN, GPIO_PIN_RESET)
+
+#define SOL_2_ON    HAL_GPIO_WritePin(SOL_2_PORT, SOL_2_PIN, GPIO_PIN_SET)
+#define SOL_2_OFF   HAL_GPIO_WritePin(SOL_2_PORT, SOL_2_PIN, GPIO_PIN_RESET)
+
+#define PUMP_ON     HAL_GPIO_WritePin(PUMP_PORT, PUMP_PIN, GPIO_PIN_SET)
+#define PUMP_OFF    HAL_GPIO_WritePin(PUMP_PORT, PUMP_PIN, GPIO_PIN_RESET)
+
+#define BOILER_ON   HAL_GPIO_WritePin(BOILER_PORT, BOILER_PIN, GPIO_PIN_SET)
+#define BOILER_OFF  HAL_GPIO_WritePin(BOILER_PORT, BOILER_PIN, GPIO_PIN_RESET)
+
+//FUNCTIONS FOR EXTERNAL COMPONENTS SWITCHING
+
+//delay 1 = 100uS
+void DELAY(uint16_t delay)
+{
+   __HAL_TIM_SET_COUNTER (&htim1, 0);
+	 while (__HAL_TIM_GET_COUNTER(&htim1) < delay); 
+}
+
+//PUMP VARIATOR
+void PUMP_VARIABLE (uint8_t i)
+{
+	 if (i >= 0 || i <= 100)
+   {
+	    PUMP_ON;
+		  DELAY (i);
+		  PUMP_OFF;
+		  DELAY (100 - i);
+	 }
+}
+
+#endif
+
